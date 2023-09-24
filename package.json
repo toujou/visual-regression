@@ -1,0 +1,16 @@
+{
+  "name": "visual-regression",
+  "version": "1.0.0",
+  "description": "Visual regression tool for toujou",
+  "main": "index.js",
+  "scripts": {
+    "refs": "backstop reference --config=backstop_toujou.config.js",
+    "test": "backstop test --config=backstop_toujou.config.js",
+    "approve": "backstop approve --config=backstop_toujou.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backstopjs": "^6.2.2"
+  }
+}
