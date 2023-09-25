@@ -1,15 +1,15 @@
 # Visual regression
 
-This is a tool to do visual regression on toujou theme
+This is a tool to do visual regression on toujou themes and content elements
 
-Visual regression works by comparing a screenshot of the current state with a screenshot of a previous "correct" state.
+Visual regression works by comparing a screenshot of the current state with a screenshot of a previous "approved" state.
 
 Tools used:
 - https://github.com/garris/BackstopJS
 
 
 # Create reference images
-This will create new reference images, agains which future tests will be compared to. [Docs](https://github.com/garris/BackstopJS#creating-reference-files)
+This will create new reference images, against which future tests will be compared. [Docs](https://github.com/garris/BackstopJS#creating-reference-files)
 - `npm npm refs`
 
 # Test
